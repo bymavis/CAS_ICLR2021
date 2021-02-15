@@ -1,6 +1,6 @@
-# Improving Adversarial Robustness via Channel-wise Activation Suppressing
+# Improving Adversarial Robustness via Channel-wise Activation Suppressing (ICLR2021)
 
-This is our Pytorch implementation of CAS.
+This is the official Pytorch implementation of CAS.
 
 ## Pre-trained model
 
