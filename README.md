@@ -2,9 +2,6 @@
 
 This is the official Pytorch implementation of CAS.
 
-## Pre-trained model
-
-Pre-trained models of AT+CAS, Trades+CAS, MART+CAS on cifar10 are in the folder of ./CAS_checkpoint
 
 ## Training
 
