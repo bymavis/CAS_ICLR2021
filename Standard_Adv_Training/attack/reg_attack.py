@@ -97,8 +97,8 @@ class FastGradientSignUntargeted():
                 outputs, class_wise_output = self.model(x, labels, _eval=True)
                 # outputs, class_wise_output = self.model(x, _eval=True)
 
-                # loss = F.cross_entropy(outputs, labels, reduction=reduction4loss)
-                loss = 0.
+                loss = F.cross_entropy(outputs, labels, reduction=reduction4loss)
+                # loss = 0.
 
                 channel_reg_loss = 0.
                 for extra_output in class_wise_output:
